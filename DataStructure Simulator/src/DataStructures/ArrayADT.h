@@ -16,5 +16,7 @@ void DeleteArray(Array* a);
 void Display(Array *a);
 void Insert(Array* a, int element, int index);
 void DeleteElement(Array* a, int index);
-
+void LinearSearch(Array* a, int element);
+void BinarySearch(Array* a, int element);
+void BubbleSort(Array* a);
 #endif

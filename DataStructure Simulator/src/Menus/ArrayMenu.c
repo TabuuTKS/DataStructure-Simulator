@@ -45,6 +45,32 @@ void deleteMenu() {
 	DeleteElement(&testArray, index);
 }
 
+void LinearSearchMenu() {
+	int element;
+	printf("Enter The Element You Want to Search For: ");
+	scanf_s("%d", &element);
+	LinearSearch(&testArray, element);
+}
+
+void BinarySearchMenu() {
+	int element, option2 = 0;
+	printf("\nBefore Binary Search, First We Need to Confirm Something.");
+	printf("\nIs your Array Sorted?: ");
+	printf("\n1) Yes");
+	printf("\n2) No");
+	printf("\nChose an Option: ");
+	scanf_s("%d", &option2);
+	if (option2 == 1) {
+		printf("Let's Continue With Binary Search");
+		printf("\nEnter The Element You Want to Search For: ");
+		scanf_s("%d", &element);
+		BinarySearch(&testArray, element);
+	}
+	else {
+		printf("Then Sort The Array First");
+	}
+}
+
 void ArrayMenu() {
 	if (isArrayCreated == false)
 	{
@@ -73,8 +99,11 @@ void ArrayMenu() {
 	printf("\nSelect an Operation to be performed on Your Array:\n");
 	printf("1) Insert\n");
 	printf("2) Delete\n");
-	printf("3) Display\n\n");
-	printf("0) Go Back\n");
+	printf("3) Display\n");
+	printf("4) Linear Search\n");
+	printf("5) Binary Search\n");
+	printf("6) Bubble Sort\n");
+	printf("\n0) Go Back\n");
 
 	printf("\nEnter The Option Number: ");
 	scanf_s("%d", &option);
@@ -100,6 +129,18 @@ void ArrayMenu() {
 			_getch();
 			ArrayMenu();
 			break;
+		case 4:
+			LinearSearchMenu();
+			_getch();
+			ArrayMenu();
+		case 5:
+			BinarySearchMenu();
+			_getch();
+			ArrayMenu();
+		case 6:
+			BubbleSort(&testArray);
+			_getch();
+			ArrayMenu();
 		default:
 			setRedColor();
 			printf("\nError: Invalid Option\n");
