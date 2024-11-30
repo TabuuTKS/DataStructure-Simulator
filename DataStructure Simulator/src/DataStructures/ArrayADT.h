@@ -19,4 +19,5 @@ void DeleteElement(Array* a, int index);
 void LinearSearch(Array* a, int element);
 void BinarySearch(Array* a, int element);
 void BubbleSort(Array* a);
+void SelectionSort(Array* a);
 #endif

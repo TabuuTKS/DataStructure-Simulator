@@ -159,3 +159,28 @@ void BubbleSort(Array* a) {
 	printf("\nArray Sorted");
 	resetToBaseColor();
 }
+
+void SelectionSort(Array* a) {
+	for (int i = 0; i < (a->Used_Size)-1; i++)
+	{
+		int sIndex = i;
+		for (int j = i+1; j < a->Used_Size; j++)
+		{
+			if ((a->ptr)[j] < (a->ptr)[sIndex])
+			{
+				sIndex = j;
+			}
+		}
+		int temp = (a->ptr)[i];
+		(a->ptr)[i] = (a->ptr)[sIndex];
+		(a->ptr)[sIndex] = temp;
+		setYellowColor();
+		printf("\nStep %d: \n", i + 1);
+		Display(a);
+		resetToBaseColor();
+		Sleep(2000);
+	}
+	setGreenColor();
+	printf("\nArray Sorted");
+	resetToBaseColor();
+}

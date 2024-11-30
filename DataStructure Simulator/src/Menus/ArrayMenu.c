@@ -103,6 +103,7 @@ void ArrayMenu() {
 	printf("4) Linear Search\n");
 	printf("5) Binary Search\n");
 	printf("6) Bubble Sort\n");
+	printf("7) Selection Sort\n");
 	printf("\n0) Go Back\n");
 
 	printf("\nEnter The Option Number: ");
@@ -139,6 +140,10 @@ void ArrayMenu() {
 			ArrayMenu();
 		case 6:
 			BubbleSort(&testArray);
+			_getch();
+			ArrayMenu();
+		case 7:
+			SelectionSort(&testArray);
 			_getch();
 			ArrayMenu();
 		default:
