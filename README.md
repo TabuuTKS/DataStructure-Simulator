@@ -18,7 +18,7 @@
             text-align: center;
             margin-bottom: 30px;
         }
-        .container {
+        .container{
             background-color: #fff;
             padding: 20px;
             border-radius: 10px;
