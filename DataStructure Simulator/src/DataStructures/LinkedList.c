@@ -33,7 +33,6 @@ void deleteLinkedList(LinkedList* list) {
     LinkedListNode* temp = list->root;
     while (temp != NULL) {
         LinkedListNode* next = temp->next;
-        printf("Freeing node with data: %d\n", temp->data); // Debug print
         free(temp);
         temp = next;
     }
@@ -72,4 +71,32 @@ void DisplayList(LinkedList* list) {
         }
         printf("NULL\n");
     }
+}
+
+void DeleteNode(LinkedList* list, int element) {
+    LinkedListNode* temp = list->root;
+    LinkedListNode* previousNode = NULL;
+    if (temp != NULL && temp->data == element)
+    {
+        list = temp->next;
+        free(temp);
+        setGreenColor();
+        printf("\n%d found in Linked List and Deleted", element);
+        resetToBaseColor();
+        return;
+    }
+    while (temp != NULL && temp->data != element) {
+        previousNode = temp;
+        temp = temp->next;
+    }
+    if (temp == NULL)
+    {
+        setRedColor("Error: Node With Value %d Not Found", element);
+        return;
+    }
+    previousNode->next = temp->next;
+    free(temp);
+    setGreenColor();
+    printf("\n%d found in Linked List and Deleted", element);
+    resetToBaseColor();
 }

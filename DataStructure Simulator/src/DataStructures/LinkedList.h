@@ -12,8 +12,10 @@ struct CustomLinkedList {
 
 LinkedListNode* createNode(int data);
 LinkedList* createLinkedList();
+
 void deleteLinkedList(LinkedList* list);
 void InsertNode(LinkedList* list, int data);
 void DisplayList(LinkedList* list);
+void DeleteNode(LinkedList* list, int element);
 
 #endif

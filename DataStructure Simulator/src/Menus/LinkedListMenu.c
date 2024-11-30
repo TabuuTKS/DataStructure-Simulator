@@ -36,6 +36,13 @@ void LinkedListInsertMenu() {
 	InsertNode(&testList, element);
 }
 
+void LinkedListDeleteMenu() {
+	int element;
+	printf("\nEnter The Element Which You Want to Delete: ");
+	scanf_s("%d", &element);
+	DeleteNode(&testList, element);
+}
+
 void LinkedListMenu() {
 	if (isLinkedListCreated == false)
 	{
@@ -76,8 +83,9 @@ void LinkedListMenu() {
 			LinkedListMenu();
 			break;
 		case 2:
-			printf("\nWill Delete Later");
+			LinkedListDeleteMenu();
 			_getch();
+			LinkedListMenu();
 			break;
 		case 3:
 			DisplayList(&testList);
