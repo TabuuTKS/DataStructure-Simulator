@@ -42,6 +42,12 @@
     <ClCompile Include="src\Menus\ArrayMenu.c">
       <Filter>Source Files\Menus</Filter>
     </ClCompile>
+    <ClCompile Include="src\DataStructures\LinkedList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Menus\LinkedListMenu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Menus\MainMenu.h">
@@ -58,6 +64,12 @@
     </ClInclude>
     <ClInclude Include="src\DataStructures\testDS.h">
       <Filter>Header Files\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DataStructures\LinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Menus\LinkedListMenu.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -2,6 +2,7 @@
 
 #include "Colors.h"
 #include "ArrayMenu.h"
+#include "LinkedListMenu.h"
 
 void MainMenu() {
     int option = -1;
@@ -24,7 +25,7 @@ void MainMenu() {
         ArrayMenu();
         break;
     case 2:
-        printf("\nYou Entered Linked List.");
+        LinkedListMenu();
         break;
     case 3:
         printf("\nYou Entered Stack.");

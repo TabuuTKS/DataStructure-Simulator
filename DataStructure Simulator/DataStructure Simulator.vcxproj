@@ -128,16 +128,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\DataStructures\ArrayADT.c" />
+    <ClCompile Include="src\DataStructures\LinkedList.c" />
     <ClCompile Include="src\main.c" />
     <ClCompile Include="src\Menus\ArrayMenu.c" />
     <ClCompile Include="src\Menus\Colors.c" />
+    <ClCompile Include="src\Menus\LinkedListMenu.c" />
     <ClCompile Include="src\Menus\MainMenu.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\DataStructures\ArrayADT.h" />
+    <ClInclude Include="src\DataStructures\LinkedList.h" />
     <ClInclude Include="src\DataStructures\testDS.h" />
     <ClInclude Include="src\Menus\ArrayMenu.h" />
     <ClInclude Include="src\Menus\Colors.h" />
+    <ClInclude Include="src\Menus\LinkedListMenu.h" />
     <ClInclude Include="src\Menus\MainMenu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
