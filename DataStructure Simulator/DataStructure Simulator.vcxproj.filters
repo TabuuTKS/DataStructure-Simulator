@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Menus">
+      <UniqueIdentifier>{54c52094-89cc-4752-a5fc-995dde541083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menus">
+      <UniqueIdentifier>{51b08eea-44e3-43df-b62f-046b70c4b513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataStructures">
+      <UniqueIdentifier>{aac3d30d-e35e-43b8-b849-3b406f54f5c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataStructures">
+      <UniqueIdentifier>{106c07a8-7fed-4ed6-8c90-56c5dfd86cbe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Menus\MainMenu.c">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Menus\Colors.c">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DataStructures\ArrayADT.c">
+      <Filter>Source Files\DataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Menus\ArrayMenu.c">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Menus\MainMenu.h">
+      <Filter>Header Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Menus\Colors.h">
+      <Filter>Header Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DataStructures\ArrayADT.h">
+      <Filter>Header Files\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Menus\ArrayMenu.h">
+      <Filter>Header Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DataStructures\testDS.h">
+      <Filter>Header Files\DataStructures</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
