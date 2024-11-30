@@ -1,4 +1,4 @@
-  Data Structure Simulator Application body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; background-color: #f4f4f4; } h1, h2, h3, h4 { color: #333; } h1 { text-align: center; margin-bottom: 30px; } .container{ background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); } .section { margin-bottom: 20px; } ul { list-style-type: square; margin: 0; padding: 0; } ul li { margin-bottom: 10px; } .footer { text-align: center; margin-top: 40px; }
+ 
 
 Data Structure Simulator Application
 ====================================
