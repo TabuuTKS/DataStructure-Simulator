@@ -1,5 +1,5 @@
 
-Data Structure Simulator Application
+Data-Structure Simulator
 ====================================
 
 Overview
