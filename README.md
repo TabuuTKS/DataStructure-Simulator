@@ -5,7 +5,7 @@ Data-Structure Simulator
 Overview
 --------
 
-This application is a comprehensive simulator for various data structures. It provides a user-friendly menu that allows users to select and perform different operations on data structures such as Arrays, Linked Lists, Stacks, Queues, and Graphs.
+This application is a comprehensive simulator for various data structures. It provides a user-friendly menu that allows users to select and perform different operations on data structures such as Arrays, Linked Lists, Stacks, Queues, and Binary Trees.
 
 Features
 --------
@@ -17,7 +17,8 @@ Features
 *   **Linked List:** Insertion, Deletion, Display
 *   **Stack:** Push, Pop, Display
 *   **Queue:** Enqueue, Dequeue, Display
-*   **Graph:** Add Vertex, Add Edge, Display Adjacency List
+*   **Binary Tree:** Insert Node, Delete Node, Display Node
+*   Note:- Graphs will be implemented in future.
 
 *   Clear and easy-to-understand user interface
 
