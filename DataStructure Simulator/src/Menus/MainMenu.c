@@ -4,6 +4,7 @@
 #include "ArrayMenu.h"
 #include "LinkedListMenu.h"
 #include "StackMenu.h"
+#include "QueueMenu.h"
 
 void MainMenu() {
     int option = -1;
@@ -32,7 +33,7 @@ void MainMenu() {
         StackMenu();
         break;
     case 4:
-        printf("\nYou Entered Queue.");
+        QueueMenu();
         break;
     case 5:
         printf("\nYou Entered Tree.");

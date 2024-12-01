@@ -54,7 +54,7 @@ void Pop(Stack* stack) {
 	else {
 		stack->top--;
 		setGreenColor();
-		printf("\nTop Element Deleted in Stack");
+		printf("\nTop Element Popped in Stack");
 		resetToBaseColor();
 	}
 }
