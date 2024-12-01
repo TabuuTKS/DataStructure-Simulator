@@ -78,7 +78,7 @@ void DeleteNode(LinkedList* list, int element) {
     LinkedListNode* previousNode = NULL;
     if (temp != NULL && temp->data == element)
     {
-        list = temp->next;
+        list->root = temp->next;
         free(temp);
         setGreenColor();
         printf("\n%d found in Linked List and Deleted", element);
