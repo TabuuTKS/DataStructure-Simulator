@@ -5,6 +5,7 @@
 #include "LinkedListMenu.h"
 #include "StackMenu.h"
 #include "QueueMenu.h"
+#include "BinaryTreeMenu.h"
 
 void MainMenu() {
     int option = -1;
@@ -13,8 +14,7 @@ void MainMenu() {
     printf("\n2) Linked List");
     printf("\n3) Stack");
     printf("\n4) Queue");
-    printf("\n5) Tree");
-    printf("\n6) Graph");
+    printf("\n5) Binary Tree");
     printf("\n\n0) Exit The Application");
     printf("\nEnter The Option Number: ");
     scanf_s("%d", &option);
@@ -36,10 +36,7 @@ void MainMenu() {
         QueueMenu();
         break;
     case 5:
-        printf("\nYou Entered Tree.");
-        break;
-    case 6:
-        printf("\nYou Entered Graph.");
+        BinaryTreeMenu();
         break;
     default:
         setRedColor();

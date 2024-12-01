@@ -60,6 +60,12 @@
     <ClCompile Include="src\Menus\QueueMenu.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\DataStructures\BinaryTree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Menus\BinaryTreeMenu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Menus\MainMenu.h">
@@ -93,6 +99,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\Menus\QueueMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DataStructures\BinaryTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Menus\BinaryTreeMenu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
