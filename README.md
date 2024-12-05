@@ -37,6 +37,10 @@ Usage
 
 Upon running the application, a menu will be displayed allowing you to choose a data structure and perform various operations. Follow the on-screen instructions to navigate through the menu and execute different operations.
 
+DLL Errors
+----------
+DLL Errors can Be Fixed by searching the DLL File on https://www.dll-files.com/ and placing them in EXE folder or System32 folder, or it can be fixed by installing Visual c++ Redistributable.
+
 Contributing
 ------------
 
